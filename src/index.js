@@ -154,7 +154,7 @@
     lineHeight: 1
   });
   var wrapper = buildElement({
-    zIndex: 2147483004,
+    zIndex: settings.z_index !== 'undefined' ? settings.z_index : 2147483004,
     position: 'fixed',
     bottom: '20px',
     display: 'block',
